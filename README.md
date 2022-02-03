@@ -1,7 +1,5 @@
 # Azure ML - Many Models Time-Series Forecasting
 
-![Many Models Forecasting](img/banner.png?raw=true "Many Models Forecasting")
-
 ## Overview
 
 This repo contains a sample notebook for constructing an Azure ML many models pipeline to:
@@ -16,7 +14,7 @@ This sample repo is adapted from [Microsoft's Many Models Solution Accelerator d
 
 ## Prerequisites
 
-To run the code included in this repo you must have access to an Azure Machine Learning workspace. Details on provisioning an AML workspace can be found [here](https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources).
+To run the code included in this repo you must have access to an [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/) workspace. Details on provisioning an AML workspace can be found [here](https://docs.microsoft.com/en-us/azure/machine-learning/quickstart-create-resources).
 
 ## Getting Started
 
