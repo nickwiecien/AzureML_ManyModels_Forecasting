@@ -1,5 +1,7 @@
 # Azure ML - Many Models Time-Series Forecasting
 
+![Many Models Forecasting](img/banner.png?raw=true "Many Models Forecasting")
+
 ## Overview
 
 This repo contains a sample notebook for constructing an Azure ML many models pipeline to:
@@ -79,6 +81,6 @@ Open the notebook located at `Users/<YOUR-USERNAME>/AzureML_ManyModels_Forecasti
 
 ![Open Pipeline Creation Notebook](img/14.png?raw=true "Open Pipeline Creation Notebook")
 
-Execute the cells in the notebook one-by-one by clicking into the cell and entering `Ctrl+Enter` or by navigating the <i>Run</i> menubar item and selecting <i>Run all cells</i>.
+Execute the cells in the notebook one-by-one by clicking into the cell and entering `Ctrl+Enter` or by navigating the <i>Run</i> menubar item and selecting <i>Run All cells</i>.
 
 ![Run Notebook Cells](img/15.png?raw=true "Run Notebook Cells")
