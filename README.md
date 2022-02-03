@@ -7,3 +7,4 @@ This repo contains a sample notebook for constructing an Azure ML many models pi
 * Register forecasted data as an AML dataset in the default datastore.
 
 This sample repo is adapted from [Microsoft's Many Models Solution Accelerator developed and supported by the AML product team](https://github.com/microsoft/solution-accelerator-many-models).
+
