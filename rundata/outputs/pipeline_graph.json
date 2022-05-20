@@ -1,0 +1,158 @@
+{
+    "schema_name": "pipeline_graph",
+    "schema_version": "1.0.0",
+    "data": {
+        "module_nodes": {
+            "06205d87": {
+                "node_id": "06205d87",
+                "name": "prefittedsoftvotingregressor",
+                "status": "model"
+            },
+            "56160a51": {
+                "node_id": "56160a51",
+                "name": "Numeric",
+                "status": "dataType"
+            },
+            "9cea2714": {
+                "node_id": "9cea2714",
+                "name": "MedianImputer",
+                "status": "operation"
+            },
+            "3d1be40d": {
+                "node_id": "3d1be40d",
+                "name": "ImputationMarker",
+                "status": "operation"
+            },
+            "daef2e3e": {
+                "node_id": "daef2e3e",
+                "name": "ImputationMarker",
+                "status": "operation"
+            },
+            "87c43f63": {
+                "node_id": "87c43f63",
+                "name": "Ignore",
+                "status": "dataType"
+            },
+            "d365feab": {
+                "node_id": "d365feab",
+                "name": "GrainMarker-LabelEncoder",
+                "status": "operation"
+            },
+            "d6a2dbdb": {
+                "node_id": "d6a2dbdb",
+                "name": "DateTime",
+                "status": "dataType"
+            },
+            "a671621a": {
+                "node_id": "a671621a",
+                "name": "DateTimeTransformer",
+                "status": "operation"
+            }
+        },
+        "edges": [
+            {
+                "source_node_id": "2dfefb79",
+                "source_node_name": "data_source",
+                "source_name": "",
+                "target_name": "4 col",
+                "dst_node_id": "56160a51",
+                "dst_node_name": "Numeric"
+            },
+            {
+                "source_node_id": "56160a51",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "9cea2714",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "3d1be40d",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "1 col",
+                "dst_node_id": "06205d87",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "9cea2714",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "3d1be40d",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "56160a51",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "daef2e3e",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "daef2e3e",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "1 col",
+                "dst_node_id": "06205d87",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "2dfefb79",
+                "source_node_name": "data_source",
+                "source_name": "",
+                "target_name": "2 col",
+                "dst_node_id": "87c43f63",
+                "dst_node_name": "Ignore"
+            },
+            {
+                "source_node_id": "87c43f63",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "d365feab",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "d365feab",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "1 col",
+                "dst_node_id": "06205d87",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "2dfefb79",
+                "source_node_name": "data_source",
+                "source_name": "",
+                "target_name": "1 col",
+                "dst_node_id": "d6a2dbdb",
+                "dst_node_name": "DateTime"
+            },
+            {
+                "source_node_id": "d6a2dbdb",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "",
+                "dst_node_id": "a671621a",
+                "dst_node_name": ""
+            },
+            {
+                "source_node_id": "a671621a",
+                "source_node_name": "",
+                "source_name": "",
+                "target_name": "6 col",
+                "dst_node_id": "06205d87",
+                "dst_node_name": ""
+            }
+        ],
+        "child_runs": [],
+        "datasource_nodes": {
+            "2dfefb79": {
+                "node_id": "2dfefb79",
+                "name": "data_source - 7 col"
+            }
+        }
+    }
+}

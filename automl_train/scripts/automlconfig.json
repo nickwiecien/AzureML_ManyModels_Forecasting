@@ -7,7 +7,7 @@
     "label_column_name": "Quantity",
     "n_cross_validations": 3,
     "verbosity": 20,
-    "debug_log": "automl_oj_sales_debug.txt",
+    "debug_log": "automl_sales_debug.txt",
     "time_column_name": "WeekStarting",
     "max_horizon": 20,
     "track_child_runs": false,
